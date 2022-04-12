@@ -1,0 +1,70 @@
+body {
+  /* background-color: rgb(33, 37, 36); */
+  background-image: url("new.gif");
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#container {
+  margin: 30px auto;
+  max-width: 650px;
+}
+
+.square {
+  width: 30%;
+  background: rgb(243, 243, 243);
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.6%;
+  border-radius: 32%;
+  transition: background 1.0s;
+  -webkit-transition: background 1.0s;
+  -moz-transition: background 1.0s;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #fffdfd;
+  background: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+  padding-top: 10px;
+}
+
+#newcolors {
+  background: rgb(206, 138, 42);
+  height: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+}
+
+.select {
+  background: red;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+  font-size: inherit;
+  transition: 1.0s;
+  -webkit-transition: background 1.0s;
+  -moz-transition: background 1.0s;
+}
+
+#message {
+  display: inline-block;
+  width: 25%;
+}
+
+#newline{
+  font-size: 21px;
+}
